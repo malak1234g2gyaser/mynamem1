@@ -1,0 +1,53 @@
+.g2g {
+    background-color: crimson;
+    font-size: 19px;
+    color: white;
+    height: 36px;
+    width: 105px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: opacity 1s;
+
+}
+.g2g:hover {
+    opacity: 0.7;
+}
+.h2h {
+    background-color: white;
+    margin-left: 10px;
+    color: dodgerblue;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1.9px;
+    border-color: deepskyblue;
+    height: 38px;
+    width: 70px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 1s ;
+}
+.h2h:hover {
+    background-color:  rgb(23, 204, 236);
+    color: white;
+}
+.h2h:active {
+    background-color: brown;
+}
+.ma {
+    background-color: rgb(23, 204, 236);
+    margin-left: 15px;
+    color: white;
+    border-radius: 30px;/*الحدود تكون دائريه */
+    border-style: solid;/*الحدود تكون نوعها نحيفه */
+    border-width: 1.9px;
+    border-color: deepskyblue;
+    height: 36px;
+    width: 75px;
+    font-weight: bold;/*يوضح الخط*/
+    cursor: pointer;/*يضع مؤشر الماوس على الايقونه */
+    font-size: 15px;
+}
